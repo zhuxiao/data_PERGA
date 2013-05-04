@@ -1,4 +1,10 @@
 There are 3 simulated reads data generated using GemSim (KE McElroy, F Luciani, T Thomas. Gemsim: General, Error-Model Based Simulator of Next-Generation Sequencing Data. BMC Genomics 2012, 13:74), with coverage 50x, 60x, 100x, read lengths 100-bp.
+
 Users can download them and run SRGA using these data sets.
+
+Assembly of reads to contigs:
+$ ./srga all -k 25 -p 2 -f gemSim_1.16m_50x.fastq -d output -o gemSim_50x
+and Assembly of contigs to scaffolds:
+$ ./srga_sf -c gemSim_50x_contigs_K25_R100.fa -f gemSim_1.16m_new_50x.fastq -p 2 -d output/ -o gemSim_50x
 
 Hope you enjoy them!
