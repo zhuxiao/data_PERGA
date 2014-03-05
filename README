@@ -5,6 +5,6 @@ Users can download them and run PERGA using these data sets.
 Assembly command:
 $ ./perga all -k 25 -p 2 -f gemSim_1.16m_50x.fastq -d out_result -o gemSim_50x
 
-Then the the results will be output to 'out_result', 'gemSim_50x_contigs.fa' and 'gemSim_50x_scaffolds.fa' are the final results.
+Then the results will be output to 'out_result', 'gemSim_50x_contigs.fa' and 'gemSim_50x_scaffolds.fa' are the final results.
 
 Thank you for enjoying it!
